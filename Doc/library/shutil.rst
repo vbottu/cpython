@@ -519,6 +519,8 @@ Directory and files operations
    operation. For :func:`copytree`, the exception argument is a list of 3-tuples
    (*srcname*, *dstname*, *exception*).
 
+   :exc:`Error` is a subclass of :exc:`OSError`.
+
 .. _shutil-platform-dependent-efficient-copy-operations:
 
 Platform-dependent efficient copy operations
